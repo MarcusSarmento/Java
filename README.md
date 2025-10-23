@@ -1,4 +1,4 @@
-Aulas de Java separadar por tópicos de materia para facilitar o entedimento da linguagem.
+## 🍵 Aulas de Java 
 
 Um guia introdutório de Java com explicações simples e exemplos práticos.  
 Ideal para iniciantes que desejam entender os fundamentos da linguagem.
@@ -11,7 +11,6 @@ Ideal para iniciantes que desejam entender os fundamentos da linguagem.
 
 É usada em **aplicações desktop, web, mobile (Android)** e **sistemas corporativos**.
 
-_____________________________________________________
     public class Main {
         public static void main(String[] args) {
             System.out.println("Olá, mundo!");
@@ -31,7 +30,6 @@ Você precisa declarar o tipo antes de usar.
 | `char`    | 'A'          | um caractere                 |
 | `String`  | "Java"       | texto (cadeia de caracteres) |
 
-_____________________________________________________
     int idade = 20;
     double altura = 1.75;
     boolean estudante = true;
@@ -44,7 +42,6 @@ _____________________________________________________
 🔹 Aritméticos
 +, -, *, /, %
 
-_____________________________________________________
     int soma = 5 + 3;
     int resto = 10 % 3;
 _____________________________________________________
@@ -52,21 +49,19 @@ _____________________________________________________
 🔹 Relacionais
 ==, !=, <, >, <=, >=
 
-_____________________________________________________
     boolean maior = 10 > 5; // true
 _____________________________________________________
 
 🔹 Lógicos
 && (E), || (OU), ! (NÃO)
 
-_____________________________________________________
+
     boolean resultado = (5 > 2) && (3 < 4); // true
 _____________________________________________________
 
 ## 💬 4. Entradas e Saídas
 Usamos a classe Scanner para ler dados do usuário.
 
-_____________________________________________________
     import java.util.Scanner;
     
     public class Main {
@@ -83,14 +78,12 @@ _____________________________________________________
 ## 📦 5. Arrays
 Um array armazena vários valores do mesmo tipo.
 
-_____________________________________________________
     int[] numeros = {1, 2, 3, 4, 5};
     System.out.println(numeros[0]); // mostra 1
 _____________________________________________________
 
 Percorrendo com for:
 
-_____________________________________________________
     for (int i = 0; i < numeros.length; i++) {
         System.out.println(numeros[i]);
     }
@@ -99,7 +92,6 @@ _____________________________________________________
 ## 📋 6. ArrayList
 Lista dinâmica, que pode crescer ou diminuir.
 
-_____________________________________________________
     import java.util.ArrayList;
     
     ArrayList<String> nomes = new ArrayList<>();
@@ -116,7 +108,7 @@ _____________________________________________________
 ## 🔑 7. HashMap
 Armazena pares de chave e valor, como um dicionário.
 
-_____________________________________________________
+
     import java.util.HashMap;
     
     HashMap<String, Integer> idades = new HashMap<>();
@@ -129,7 +121,7 @@ _____________________________________________________
 
 ## ⚙️ 8. Estruturas de Controle
 🔹 If / Else
-_____________________________________________________
+
     int idade = 18;
     
     if (idade >= 18) {
@@ -140,7 +132,7 @@ _____________________________________________________
 _____________________________________________________
 
 🔹 While
-_____________________________________________________
+
     int contador = 0;
     while (contador < 3) {
         System.out.println("Contando: " + contador);
@@ -149,7 +141,7 @@ _____________________________________________________
 _____________________________________________________
 
 🔹 For
-_____________________________________________________
+
     for (int i = 1; i <= 5; i++) {
         System.out.println("Número: " + i);
     }
@@ -158,7 +150,6 @@ _____________________________________________________
 ## 🧩 9. Funções (Métodos)
 Servem para organizar e reutilizar código.
 
-_____________________________________________________
     public class Main {
     
         static void saudacao(String nome) {
@@ -173,7 +164,6 @@ _____________________________________________________
 
 Função com retorno:
 
-_____________________________________________________
     static int soma(int a, int b) {
         return a + b;
     }
@@ -182,7 +172,6 @@ _____________________________________________________
 ## 🧬 10. Herança (Orientação a Objetos)
 Permite que uma classe filha reutilize atributos e métodos de uma classe pai.
 
-_____________________________________________________
     class Animal {
         void fazerSom() {
             System.out.println("Algum som...");
@@ -214,7 +203,7 @@ _____________________________________________________
 
 -Extensão do VS Code: Extension Pack for Java
 
-*🧭 Passo a Passo — Terminal
+`🧭 Passo a Passo — Terminal`
 
 -Verifique se o Java está instalado:
 
@@ -249,7 +238,7 @@ _____________________________________________________
 4- Clique no botão ▶️ no canto superior direito ou pressione Ctrl + F5 para rodar.
 _____________________________________________________
 
-🧠 Resumo Geral
+`🧠 Resumo Geral`
 | Conceito                         | Ideia Principal               | Exemplo                         |
 | -------------------------------- | ----------------------------- | ------------------------------- |
 | **Variáveis**                    | Armazenam dados               | `int x = 10;`                   |
